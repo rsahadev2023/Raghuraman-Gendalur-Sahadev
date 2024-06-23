@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+    <test name="HomePage">
+    <!-- 
+    always points to src/main/java  ->
+    
+    
+    src/main/java - folder 1 - 1.java
+    
+    1.1
+     -->
+        <classes>
+            <class name="testrunner.HomePage"/>
+        </classes>
+    </test> <!-- Test -->
+</suite>
+
+
+
+<!-- 
+Always flow starts from src/test/resources and navigate to src/main/java
+Entry Point - from testng xml
+
+
+1) Low level validations - exhaustive testing 
+2) High level - High priority cases alone - past data - 
+3) DR/Hc - Disaster recovery /Health check - run only 1/2 cases per page randomly
+
+ -->
+ 
+ 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite" thread-count="2" >
+    <test name="HomePage" thread-count="2" parallel="classes">
+    <!-- 
+    always points to src/main/java  ->
+    
+    
+    src/main/java - folder 1 - 1.java
+    
+    1.1
+     -->
+        <classes>
+            <class name="testrunner.HomePageBasicCalc"/>
+        </classes>
+    </test> <!-- Test -->
+</suite>
+
+
+
+<!-- 
+Always flow starts from src/test/resources and navigate to src/main/java
+Entry Point - from testng xml
+
+
+
+ -->

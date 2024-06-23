@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Disaster Recovery">
+    <test name="HomePage">
+        <classes>
+            <class name="testrunner.HomePage"/>
+        </classes>
+    </test> <!-- Test -->
+    
+    
+     <test name="HomePage" thread-count="2" parallel="classes">
+        <classes>
+            <class name="testrunner.HomePageBasicCalc"/>
+        </classes>
+    </test>
+    
+     <test name="NumberGame">
+        <classes>
+            <class name="testrunner.NumberGamePage"/>
+        </classes>
+    </test>
+    
+</suite>
