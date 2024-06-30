@@ -10,7 +10,8 @@ import org.openqa.selenium.*;
 public class BaseClass {
 
 	String name="";
-	String checking1="";
+
+	String checking2="";
 	  public void ClickElement(WebDriver driver,String xpath_locator){
 	        driver.findElement(By.xpath(xpath_locator)).click();
 	    }
